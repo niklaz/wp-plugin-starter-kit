@@ -1,0 +1,22 @@
+{
+  "name": "niklaz/wp-plugin-starter-kit",
+  "description": "Starter kit for building WordPress plugin",
+  "require": {
+    "php": ">=5.5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "WPPluginStarterKit\\": "src/"
+    }
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Nikola Kirincic",
+      "email": "nikolakirincic@gmail.com"
+    }
+  ],
+  "archive": {
+    "exclude": [".DS_Store", "*.log"]
+  }
+}
