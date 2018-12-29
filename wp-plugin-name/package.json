@@ -4,6 +4,10 @@
   "author": "niklaz",
   "version": "1.0.0",
   "license": "GPL-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/niklaz/wp-plugin-starter-kit.git"
+  },
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,6 +15,7 @@
   "dependencies": {},
   "devDependencies": {
     "@babel/core": "^7.2.2",
+    "dart-sass": "^1.15.2",
     "gulp": "^4.0.0",
     "gulp-autoprefixer": "^6.0.0",
     "gulp-babel": "^8.0.0",
@@ -22,6 +27,8 @@
     "gulp-rename": "^1.4.0",
     "gulp-sass": "^4.0.2",
     "gulp-uglify": "^3.0.1",
-    "gulp-watch": "^5.0.1"
+    "gulp-watch": "^5.0.1",
+    "node-sass": "^4.11.0",
+    "sass": "^1.15.2"
   }
 }
